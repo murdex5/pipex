@@ -98,6 +98,3 @@ This command will read input from the terminal until `EOF` is entered, use `grep
 ```bash
 ./pipex here_doc EOF "grep a" "wc -w" outfile
 ```
-## Error Handling
-The program includes robust error handling to manage various scenarios:
-- If the input file does not exist or cannot be opened, an error message is printed,    and the program exits with a status code of `1`.  
